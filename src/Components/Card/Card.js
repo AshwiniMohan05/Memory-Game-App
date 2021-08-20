@@ -16,7 +16,7 @@ export default function Card({
             <img
                 className={`card ${cardView}`}
                 alt=""
-                src={flipped || matchedImages ? `/svg/${type}.svg` : '/svg/default.svg'}
+                src={flipped || matchedImages ? `/svg/${type}.svg` : '/svg/defaultCard.svg'}
             />
         </div>
     </div>
