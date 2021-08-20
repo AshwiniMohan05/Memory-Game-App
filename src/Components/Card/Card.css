@@ -1,0 +1,40 @@
+.card-container{
+    display: inline-block;
+    perspective: 1000px;
+    border: 1px solid black;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.card-container.flipped .card-flipper{
+    transform: rotateY(180deg);
+}
+.card{
+    padding: 20px;
+}
+
+.card-flipper{
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.card-front-view,
+.card-back-view{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.card-back-view{
+    z-index: 2;
+}
+
+.card-front-view{
+    transform: rotateY(180deg);
+    background: beige;
+}
+.defaultCard{
+    color: gray;
+}

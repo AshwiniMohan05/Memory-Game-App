@@ -1,0 +1,9 @@
+.board-wrapper{
+  background: aliceblue;
+  max-width: 416px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 0.1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
