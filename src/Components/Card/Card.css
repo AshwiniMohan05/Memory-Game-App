@@ -7,16 +7,12 @@
     height: 100px;
 }
 
-.card-container.flipped .card-flipper{
-    transform: rotateY(180deg);
-}
 .card{
     padding: 20px;
 }
 
 .card-flipper{
     transition: 0.6s;
-    transform-style: preserve-3d;
     position: relative;
 }
 
@@ -32,7 +28,6 @@
 }
 
 .card-front-view{
-    transform: rotateY(180deg);
     background: beige;
 }
 .defaultCard{
